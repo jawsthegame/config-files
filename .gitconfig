@@ -1,0 +1,19 @@
+[user]
+  name = Tom Fleischer
+  email = tfleischer@gmail.com
+[core]
+  editor = vim
+  excludesfile = /home/tom/.gitignore_global
+[color]
+  ui = true
+[alias]
+  st = status
+  pod = pull origin develop
+  prefs = push origin HEAD:refs/for/develop
+  lol = log --oneline
+  pom = pull origin master
+  pushd = push origin develop
+  pushm = push origin master
+  co = checkout
+  cod = checkout develop
+  com = checkout master
