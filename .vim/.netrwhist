@@ -1,9 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/tom/vistar/html_player/app/assets'
-let g:netrw_dirhist_2='/home/tom/.i3'
-let g:netrw_dirhist_3='/home/tom/vistar/cookbooks/site-cookbooks/bigquery/attributes'
-let g:netrw_dirhist_4='/home/tom/logs'
-let g:netrw_dirhist_5='/home/tom/vistar/vistar-ui'
-let g:netrw_dirhist_6='/home/tom/vistar/vistar-ui/bin'
-let g:netrw_dirhist_7='/home/tom/floobits/share/jawsthegame/test'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/tom/.go-path-1.1.2/src/github.com/vistarmedia/qtdb'
+let g:netrw_dirhist_2='/home/tom/.go-path-1.1.2/src/github.com/vistarmedia/gom'
+let g:netrw_dirhist_3='/usr/local/hadoop/out.txt'
+let g:netrw_dirhist_4='/home/tom/geo_schema.sql'
+let g:netrw_dirhist_5='/home/tom/vistar/rest/test'
+let g:netrw_dirhist_6='/home/tom/vistar/geo-rest'

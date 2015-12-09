@@ -1,6 +1,6 @@
 [user]
-  name = Tom Fleischer
-  email = tfleischer@gmail.com
+  name = Tom
+  email = tom@vistarmedia.com
 [core]
   editor = vim
   excludesfile = /home/tom/.gitignore_global
@@ -10,6 +10,7 @@
   st = status
   pod = pull origin develop
   prefs = push origin HEAD:refs/for/develop
+  prefsm = push origin HEAD:refs/for/master
   lol = log --oneline
   pom = pull origin master
   pushd = push origin develop
@@ -17,3 +18,6 @@
   co = checkout
   cod = checkout develop
   com = checkout master
+  fall = fetch --all
+  pusht = push --tags
+  graph = log --all --graph --decorate --oneline

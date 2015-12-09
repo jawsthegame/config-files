@@ -63,3 +63,14 @@ augroup end
 
 :au BufWinEnter * let w:m1=matchadd('Search', '\%<81v.\>80v', -1)
 :au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+
+set wildignore=**/node_modules/*,**/target/*
+
+" Syntastic
+let s:php_executable = "/usr/bin/php"
+let g:syntastic_phpcs_disable = 1
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+let g:syntastic_check_on_open=1
+let g:syntastic_python_checkers=['pyflakes']
+let g:syntastic_coffee_checkers = ['coffeelint']
