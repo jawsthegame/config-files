@@ -1,0 +1,1 @@
+/home/tom/.irssi/scripts/tmux-nicklist-portable.pl

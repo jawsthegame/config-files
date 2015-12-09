@@ -1,0 +1,1 @@
+/home/tom/.irssi/scripts/trackbar22.pl
